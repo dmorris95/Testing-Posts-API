@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Update Post Functionality Update post and submit updated post via PostForm 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="fade alert alert-success show"
+      role="alert"
+    >
+      Post successfully updated
+    </div>
+    <div
+      class="m-2 md-6 col"
+    >
+      <form
+        class="border p-3 rounded-4 border-dark"
+      >
+        <h3>
+          Post Form
+        </h3>
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+            for="title"
+          >
+            Title
+          </label>
+          <input
+            class="form-control"
+            id="title"
+            name="title"
+            placeholder="Enter Title"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+            for="userid"
+          >
+            UserID
+          </label>
+          <input
+            class="form-control"
+            id="userid"
+            name="userid"
+            placeholder="Enter UserID"
+            required=""
+            type="number"
+            value=""
+          />
+        </div>
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+            for="body"
+          >
+            Body
+          </label>
+          <textarea
+            class="form-control"
+            id="body"
+            name="body"
+            required=""
+            rows="3"
+          />
+        </div>
+        <button
+          class="btn btn-primary"
+          type="submit"
+        >
+          Update Post
+        </button>
+      </form>
+    </div>
+  </div>
+  <div>
+    <input
+      class="mb-3 bg-light border-primary rounded-2"
+      name="filterId"
+      placeholder="Filter by User ID"
+      type="number"
+      value=""
+    />
+    <div
+      class="mb-3 card"
+    >
+      <div
+        class="card-body"
+      >
+        <div
+          class="card-title h5"
+        >
+          Updated Title
+        </div>
+        <p
+          class="card-text"
+        >
+          Updated Body
+        </p>
+        <button
+          class="btn btn-primary"
+          type="button"
+        >
+          Edit
+        </button>
+        <button
+          class="btn btn-danger"
+          data-testid="del-button-1"
+          type="button"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+    <div
+      class="mb-3 card"
+    >
+      <div
+        class="card-body"
+      >
+        <div
+          class="card-title h5"
+        >
+          Test Ttitle 2
+        </div>
+        <p
+          class="card-text"
+        >
+          Post body 2
+        </p>
+        <button
+          class="btn btn-primary"
+          type="button"
+        >
+          Edit
+        </button>
+        <button
+          class="btn btn-danger"
+          data-testid="del-button-2"
+          type="button"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
